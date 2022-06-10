@@ -295,15 +295,15 @@ footer p{
 
 
 /*media query*/
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 360px) {
     .navbar-brand{
-        margin-left: -16.5vh;
+        margin-left: -19vh;
         font-size: 0.8rem;
         position: relative;
     }
 
     .nav-item a{
-        margin-left: -8vh;
+        margin-left: -8.5vh;
         margin-top: 10px;
         font-size: 1rem;
         text-align: center;
@@ -318,7 +318,7 @@ footer p{
 
     nav button{
         margin-top: -5vh;
-        margin-left: 9.2vh;
+        margin-left: 8.5vh;
         color: #74d4ac;
         float:right;
     }
@@ -365,9 +365,9 @@ footer p{
     }
 
     #about img{
-        margin-top: 2em;
+        margin-top: -5em;
         margin-left: -3em;
-        width: 240px;
+        width: 200px;
         height: auto;
         text-align: center;
         align-items:center;
@@ -418,7 +418,177 @@ footer p{
 
     /*card*/
     .card{
-        margin-left: -60px;
+        margin-left: -70px;
+        margin-bottom: -10px;
+        width: 250px;
+        height: 380px;
+        grid-column: span 4;
+    }
+    .card .text-card h3{
+        font-size: 0.9rem;
+    }
+    .card .text-card p{
+        font-size: 0.8rem;
+        width: 180px;
+        white-space: nowrap;      
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+
+    #projects .btn-dark{
+        margin-top: 4em;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    /*contact*/
+    #contact h1{
+        font-size: 1.1rem;
+    }
+    #contact p{
+        font-size: 1rem;
+    }
+
+    #contact a i{
+        font-size: 3rem;
+    }
+
+    #contact input[type="submit"]{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*footer*/
+    footer p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 375px) {
+    .navbar-brand{
+        margin-left: -19vh;
+        font-size: 0.8rem;
+        position: relative;
+    }
+
+    .nav-item a{
+        margin-left: -5.5vh;
+        margin-top: 10px;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav-item a:hover{
+        color: #74d4ac;
+    }
+
+    nav button{
+        margin-top: -5vh;
+        margin-left: 14.5vh;
+        color: #74d4ac;
+        float:right;
+    }
+
+    nav i{
+        padding: 5px;
+    }
+
+    nav ul li{
+        margin: 0;
+    }
+
+    /*header*/
+    #home{
+        margin-top: 5vh;
+        width: 100%;
+    }
+
+
+    #home img{
+        margin-left: 4vh;
+        margin-top: 4em;
+        width: 250px;
+        height: auto;
+        align-items: center;
+    }
+
+    #home h1{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    #home h2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #home p{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #home .btn-dark{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #about img{
+        margin-top: -6.5em;
+        margin-left: -1.5em;
+        width: 200px;
+        height: auto;
+        text-align: center;
+        align-items:center;
+    }
+
+    /*section*/
+    #about h1{
+        font-size: 1.1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    #about p{
+        font-size: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about .btn-dark{
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /*skills*/
+    #skills h1{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #skills p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    /*projects*/
+
+    #projects section{
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #projects h1{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    /*card*/
+    .card{
+        margin-left: -50px;
         margin-bottom: -10px;
         width: 250px;
         height: 390px;
@@ -465,15 +635,17 @@ footer p{
 }
 
 
-@media screen and (min-width: 375px) and (max-width: 480px) {
+
+@media screen and (min-width: 375px) and (max-width: 390px) {
+
     .navbar-brand{
-        margin-left: -16.5vh;
+        margin-left: -18vh;
         font-size: 1rem;
         position: relative;
     }
 
     .nav-item a{
-        margin-left: -4.5vh;
+        margin-left: -5vh;
         margin-top: 10px;
         font-size: 1rem;
         text-align: center;
@@ -492,8 +664,8 @@ footer p{
     }
 
     nav button{
-        margin-top: -6vh;
-        margin-left: 16.4vh;
+        margin-top: -6.5vh;
+        margin-left: 16vh;
         color: #74d4ac;
         float:right;
     }
@@ -505,11 +677,13 @@ footer p{
     /*header*/
     #home{
         width: 100%;
+        margin-top: 5vh;
         text-align: center;
     }
 
     #home img{
         margin-top: 4em;
+        margin-left: -0.5em;
         width: 250px;
         height: auto;
         align-items: center;
@@ -524,6 +698,7 @@ footer p{
         text-align: center;
     }
     #home p{
+        width: 100%;
         font-size: 1.1rem;
         text-align: center;
     }
@@ -539,8 +714,8 @@ footer p{
         text-align: center;
     }
     #about img{
-        margin-left: -4px;
-        margin-top: -3px;
+        margin-left: -8px;
+        margin-top: -8em;
         width: 200px;
         height: auto;
         text-align: center;
@@ -595,6 +770,539 @@ footer p{
     /*card*/
     .card{
         margin-left: -40px;
+        margin-bottom: -5px;
+        width: 250px;
+        height: 390px;
+        grid-column: span 4;
+    }
+    .card .text-card h3{
+        font-size: 0.95rem;
+    }
+    .card .text-card p{
+        font-size: 0.8rem;
+        width: 100%;
+        height: auto;
+        white-space: nowrap;      
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+
+    #projects .btn-dark{
+        margin-top: 4em;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    /*contact*/
+    #contact h1{
+        font-size: 1.1rem;
+    }
+    #contact p{
+        font-size: 1rem;
+    }
+
+    #contact a i{
+        font-size: 3.5rem;
+    }
+
+    #contact input[type="submit"]{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*footer*/
+    footer p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 412px) {
+    .navbar-brand{
+        margin-left: -17.5vh;
+        font-size: 1rem;
+        position: relative;
+    }
+
+    .nav-item a{
+        margin-left: -3.5vh;
+        margin-top: 8.5px;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    
+
+    .nav-item a:hover{
+        color: #74d4ac;
+    }
+
+    nav ul li{
+        margin: 0;
+    }
+
+    nav button{
+        margin-top: -5vh;
+        margin-left: 16vh;
+        color: #74d4ac;
+        float:right;
+    }
+
+    nav i{
+        padding: 5px;
+    }
+
+    /*header*/
+    #home{
+        width: 100%;
+        text-align: center;
+    }
+
+    #home img{
+        margin-top: 4em;
+        width: 250px;
+        height: auto;
+        align-items: center;
+    }
+
+    #home h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #home h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    #home p{
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #home .btn-dark{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*section*/
+    #about{
+        width: 100%;
+        text-align: center;
+    }
+    #about img{
+        margin-left: -8px;
+        margin-top: -8em;
+        width: 200px;
+        height: auto;
+        text-align: center;
+        align-items:center;
+    }
+    #about h1{
+        margin-top: 1vh;
+        font-size: 1.25rem;
+        text-align: center;
+        align-items: center;
+    }
+    #about p{
+        font-size: 1rem;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    #about .btn-dark{
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /*skills*/
+    #skill {
+        width: 100%;
+        text-align: center;
+    }
+    #skills h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    #skills p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    /*projects*/
+
+    #projects section{
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #projects h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    /*card*/
+    .card{
+        margin-left: -40px;
+        margin-bottom: -5px;
+        width: 250px;
+        height: 390px;
+        grid-column: span 4;
+    }
+    .card .text-card h3{
+        font-size: 0.95rem;
+    }
+    .card .text-card p{
+        font-size: 0.8rem;
+        width: 100%;
+        height: auto;
+        white-space: nowrap;      
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+
+    #projects .btn-dark{
+        margin-top: 4em;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    /*contact*/
+    #contact h1{
+        font-size: 1.1rem;
+    }
+    #contact p{
+        font-size: 1rem;
+    }
+
+    #contact a i{
+        font-size: 3.5rem;
+    }
+
+    #contact input[type="submit"]{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*footer*/
+    footer p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+    .navbar-brand{
+        margin-left: -15.5vh;
+        font-size: 1rem;
+        position: relative;
+    }
+
+    .nav-item a{
+        margin-left: -2vh;
+        margin-top: 10px;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    
+
+    .nav-item a:hover{
+        color: #74d4ac;
+    }
+
+    nav ul li{
+        margin: 0;
+    }
+
+    nav button{
+        margin-top: -4.8vh;
+        margin-left: 17vh;
+        color: #74d4ac;
+        float:right;
+    }
+
+    nav i{
+        padding: 5px;
+    }
+
+    /*header*/
+    #home{
+        width: 100%;
+        text-align: center;
+    }
+
+    #home img{
+        margin-top: 4em;
+        width: 250px;
+        height: auto;
+        align-items: center;
+    }
+
+    #home h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #home h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    #home p{
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #home .btn-dark{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*section*/
+    #about{
+        width: 100%;
+        text-align: center;
+    }
+    #about img{
+        margin-left: -8px;
+        margin-top: -8em;
+        width: 200px;
+        height: auto;
+        text-align: center;
+        align-items:center;
+    }
+    #about h1{
+        margin-top: 1vh;
+        font-size: 1.25rem;
+        text-align: center;
+        align-items: center;
+    }
+    #about p{
+        font-size: 1rem;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    #about .btn-dark{
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /*skills*/
+    #skill {
+        width: 100%;
+        text-align: center;
+    }
+    #skills h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    #skills p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    /*projects*/
+
+    #projects section{
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #projects h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    /*card*/
+    .card{
+        margin-left: -25px;
+        margin-bottom: -5px;
+        width: 250px;
+        height: 390px;
+        grid-column: span 4;
+    }
+    .card .text-card h3{
+        font-size: 0.95rem;
+    }
+    .card .text-card p{
+        font-size: 0.8rem;
+        width: 100%;
+        height: auto;
+        white-space: nowrap;      
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+
+    #projects .btn-dark{
+        margin-top: 4em;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    /*contact*/
+    #contact h1{
+        font-size: 1.1rem;
+    }
+    #contact p{
+        font-size: 1rem;
+    }
+
+    #contact a i{
+        font-size: 3.5rem;
+    }
+
+    #contact input[type="submit"]{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*footer*/
+    footer p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
+    .navbar-brand{
+        margin-left: -20vh;
+        font-size: 1rem;
+        position: relative;
+    }
+
+    .nav-item a{
+        margin-left: -2.2vh;
+        margin-top: 10px;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    
+
+    .nav-item a:hover{
+        color: #74d4ac;
+    }
+
+    nav ul li{
+        margin: 0;
+    }
+
+    nav button{
+        margin-top: -5vh;
+        margin-left: 21vh;
+        color: #74d4ac;
+        float:right;
+    }
+
+    nav i{
+        padding: 5px;
+    }
+
+    /*header*/
+    #home{
+        width: 100%;
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    #home img{
+        margin-top: 4em;
+        width: 250px;
+        height: auto;
+        align-items: center;
+    }
+
+    #home h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #home h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    #home p{
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #home .btn-dark{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*section*/
+    #about{
+        width: 100%;
+        text-align: center;
+    }
+    #about img{
+        margin-left: -8px;
+        margin-top: -8em;
+        width: 200px;
+        height: auto;
+        text-align: center;
+        align-items:center;
+    }
+    #about h1{
+        width: 100%;
+        margin-top: 1vh;
+        font-size: 1.25rem;
+        text-align: center;
+        align-items: center;
+    }
+    #about p{
+        width: 100%;
+        font-size: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+    #about .btn-dark{
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /*skills*/
+    #skill {
+        width: 100%;
+        text-align: center;
+    }
+    #skills h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    #skills p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    /*projects*/
+
+    #projects section{
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #projects h1{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    /*card*/
+    .card{
+        margin-left: -23px;
         margin-bottom: -5px;
         width: 250px;
         height: 390px;
@@ -811,6 +1519,7 @@ footer p{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
+    
     .navbar-brand{
         margin-left: -10vh;
         font-size: 1.75rem;
@@ -823,7 +1532,7 @@ footer p{
     }
 
     .nav-item a{
-        margin-left: 10vh;
+        margin-left: 17vh;
         font-size: 3vh;
         text-align: center;
         align-items: center;
@@ -836,8 +1545,8 @@ footer p{
     }
 
     nav button{
-        padding: 7px;
-        margin-top: -7.2vh;
+        padding: 10px;
+        margin-top: -8vh;
         margin-left: 57vh;
         color: #74d4ac;
         float:right;
@@ -851,24 +1560,30 @@ footer p{
     #home{
         width: 100%;
         margin: 5vh 0 0 22vh;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
         text-align: center;
     }
 
     #home img{
-        margin-top: 30em;
-        margin-left: -90vh;
+        margin-top: 39em;
+        margin-left: -92vh;
         width: 100%;
         height: auto;
     }
 
     #home h1{
-        font-size: 2rem;
+        width: 100%;
+        font-size: 2.2rem;
+        width: 100%;
     }
     #home h2{
-        font-size: 2.05rem;
+        font-size: 2.10rem;
     }
     #home p{
-        font-size: 1.9rem;
+        width: 100%;
+        font-size: 1.7rem;
     }
 
     #home .btn-dark{
@@ -974,7 +1689,7 @@ footer p{
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px){
+@media screen and (min-width: 1024px) and (max-width: 1280px){
 
     .navbar-brand{
         margin-left: -12vh;
@@ -1067,7 +1782,7 @@ footer p{
 
     #about p{
         width: 100%;
-        font-size: 25px;
+        font-size: 21px;
     }
 
     #about .btn-dark{
@@ -1126,7 +1841,7 @@ footer p{
     }
     #contact p{
         width: 100%;
-        font-size: 25px;
+        font-size: 21px;
     }
 
     #contact a i{
@@ -1141,14 +1856,14 @@ footer p{
 
     /*footer*/
     footer p{
-        font-size: 25px;
+        font-size: 21px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1366px){
+@media screen and (min-width: 1280px) and (max-width: 1366px){
 
     .navbar-brand{
-        margin-left: -11vh;
+        margin-left: -9.5vh;
         font-size: 22px;
         position: relative;
         display: flex;
@@ -1157,7 +1872,7 @@ footer p{
     nav ul li{
         padding: 1px;
         margin-left: 1vh;
-        margin-right: 2vh;
+        margin-right: 3.5vh;
     }
 
     .nav-item a{
@@ -1265,7 +1980,7 @@ footer p{
     .card{
         width: 350px;
         height: 480px;
-        margin: 2vh 0 5vh 42vh;
+        margin: 2vh 0 5vh 49.5vh;
         grid-column: span 2;
         column-count: 2;
     }
@@ -1431,7 +2146,7 @@ footer p{
     }
 
     #projects .btn-dark{
-        width: 25%;
+        width: 40%;
         font-size: 20px;
     }
 
@@ -1467,7 +2182,7 @@ footer p{
 
 @media screen and (min-width: 1440px) and (max-width: 1600px){
     .navbar-brand{
-        margin-left: -10vh;
+        margin-left: -5.5vh;
         font-size: 24px;
         position: relative;
         display: flex;
@@ -1475,8 +2190,8 @@ footer p{
 
     nav ul li{
         padding: 1px;
-        margin-left: 27vh;
-        margin-right: -24vh;
+        margin-left: 22vh;
+        margin-right: -16.5vh;
     }
 
     .nav-item a{
@@ -1491,7 +2206,7 @@ footer p{
 
     /*header*/
     #home{
-        margin: 5vh 0 0 5vh;
+        margin: 10vh 0 0 5vh;
         text-align: left;
         width: 100%;
     }
@@ -1582,15 +2297,15 @@ footer p{
 
     /*card*/
     .card{
-        width: 350px;
+        width: 400px;
         height: 480px;
-        margin: 2vh 0 5vh 57.2vh;
+        margin: 2vh 0 5vh 39vh;
         grid-column: span 2;
         column-count: 2;
     }
 
     #projects .btn-dark{
-        width: 25%;
+        width: 40%;
         font-size: 22px;
     }
 
@@ -1634,8 +2349,8 @@ footer p{
 
     nav ul li{
         padding: 1px;
-        margin-left: 20vh;
-        margin-right: -15vh;
+        margin-left: 18vh;
+        margin-right: -12vh;
     }
 
     .nav-item a{
@@ -1741,15 +2456,174 @@ footer p{
 
     /*card*/
     .card{
-        width: 350px;
+        width: 400px;
         height: 480px;
-        margin: 2vh 0 5vh 59.5vh;
+        margin: 2vh 0 5vh 49vh;
         grid-column: span 2;
         column-count: 2;
     }
 
     #projects .btn-dark{
+        width: 40%;
+        font-size: 22px;
+    }
+
+    /*contact*/
+    #contact section{
+        width: 100%;
+    }
+
+    #contact h1{
+        margin-top: 1.5vh;
+        font-size: 28px;
+    }
+    #contact p{
+        width: 100%;
+        font-size: 21px;
+    }
+
+    #contact a i{
+        font-size: 3rem;
+        padding: 2px;
+    }
+
+    #contact input[type="submit"]{
+        width: 100%;
+        font-size: 22px;
+    }
+
+    /*footer*/
+    footer p{
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .navbar-brand{
+        margin-left: 16.5vh;
+        font-size: 24px;
+        position: relative;
+        display: flex;
+    }
+
+    nav ul li{
+        padding: 1px;
+        margin-left: 2vh;
+        margin-right: 4.5vh;
+    }
+
+    .nav-item a{
+        left: 2px;
+        font-size: 20px;
+        padding: 1px;
+    }
+
+    .nav-item a:hover{
+        color: #378565;
+    }
+
+    /*header*/
+    #home{
+        margin: 5vh 0 0 5vh;
+        text-align: left;
+        width: 100%;
+    }
+
+    #home img{
+        margin-top: -5em;
+        margin-left: -5vh;
+        width: 450px;
+        height: auto;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    #home h1{
+        font-size: 28px;
+    }
+    #home h2{
+        font-size: 30px;
+    }
+    #home p{
+        font-size: 21px;
+    }
+
+    #home .btn-dark{
         width: 25%;
+        font-size: 22px;
+    }
+
+    /*section*/
+    #about{
+        width: 100%;
+        margin-top: -5em;
+        text-align: left;
+        align-self: center;
+    }
+
+    #about img{
+        width: 100%;
+        height: auto;
+        margin-top: 5vh;
+        margin-left: -2vh;
+        justify-content: center;
+        align-items:center;
+        align-self: center;
+    }
+
+    #about h1{
+        margin-top: 10vh;
+        font-size: 28px;
+    }
+
+    #about p{
+        width: 100%;
+        font-size: 21px;
+    }
+
+    #about .btn-dark{
+        width: 50%;
+        font-size: 22px;
+    }
+
+    /*skills*/
+    #skills h1{
+        margin-top: 1.5vh;
+        font-size: 28px;
+    }
+
+    #skills p{
+        width: 100%;
+        font-size: 21px;
+    }
+
+
+    /*projects*/
+    #projects section{
+        width: 100%;
+        display:grid;
+        grid-template-columns: repeat(2, 3fr);
+        column-gap: 40px;
+    }
+
+    #projects h1{
+        margin-top: 1.5vh;
+        margin-bottom: 4vh;
+        font-size: 28px;
+    }
+
+    /*card*/
+    .card{
+        width: 510px;
+        height: 420px;
+        margin: 2vh 0 5vh 40vh;
+        grid-column: span 2;
+        column-count: 2;
+    }
+
+    #projects .btn-dark{
+        width: 40%;
         font-size: 22px;
     }
 
