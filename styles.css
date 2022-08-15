@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;800&family=Roboto:wght@300;400;500;700&display=swap");
+
+/*variables*/
+:root {
+  --clr-primary: #499a78;
+  --clr-primary-2: #28835d;
+  --clr-primary-3: #1a4835;
+  --clr-primary-4: #2c6d52;
+  --clr-primary-5: #b8ecd6;
+  --clr-white: #e5eef1;
+  --clr-dark-bg: #191a1b;
+
+  /*card color*/
+  --clr-gray-1: #343434;
+  --clr-gray-2: #556567;
+
+  --clr-white-2: #dfece7;
+
+  --clr-black: #191a1b;
+  --clr-black-2: #212321;
+
+  /*fonts*/
+  --ff-primary: Roboto, sans-serif;
+  --ff-secondary: "Merriweather Sans", sans-serif;
+  --ff-navfont: "Consolas", "Courier New", monospace;
+}
+
+/*global font*/
+a {
+  font-family: var(--ff-primary), "Helvetica Neue", sans-serif;
+}
+h1 {
+  font-family: var(--ff-primary), "Helvetica Neue", sans-serif;
+}
+h2,
+p {
+  font-family: var(--ff-secondary), "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--clr-dark-bg);
+}
+
+/*navbar*/
+nav button {
+  color: var(--clr-primary);
+}
+
+nav,
+.navbar-dark {
+  margin: 2em 0em;
+}
+
+.navbar-brand {
+  font-family: var(--ff-navfont);
+  font-size: 1.6em;
+  font-weight: bolder;
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+nav ul li {
+  padding: 0 1em;
+}
+
+nav ul li a {
+  list-style: none;
+  font-family: var(--ff-navfont);
+}
+
+.nav-link {
+  color: var(--clr-white);
+  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 0;
+}
+.nav-link:active,
+.nav-link:focus {
+  color: var(--clr-primary);
+  border-bottom: 1px solid var(--clr-primary);
+  text-decoration: underline;
+}
+.nav-link:link {
+  color: var(--clr-white);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--clr-primary);
+  text-decoration: none;
+  /* border-bottom: 1px solid var(--clr-primary); */
+}
+
+/*header*/
+header h1 {
+  font-size: 2.8em;
+  color: var(--clr-white);
+  font-weight: 600;
+}
+header h2 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: var(--clr-primary);
+  line-height: 2em;
+}
+header p {
+  font-size: 2em;
+  color: var(--clr-white);
+  width: 90%;
+  line-height: 2.5em;
+  letter-spacing: 2px;
+}
+
+/*section*/
+section {
+  padding: 3rem;
+  margin: 0.9em;
+}
+section h1 {
+  font-size: 3em;
+  color: var(--clr-primary);
+  font-weight: 600;
+  line-height: 2.4em;
+}
+section h2 {
+  font-size: 2.9em;
+  font-weight: bolder;
+  color: var(--clr-primary);
+  line-height: 2.2em;
+}
+section p {
+  font-size: 18px;
+  color: var(--clr-white);
+  width: 100%;
+  line-height: 2.2em;
+  letter-spacing: 2.2px;
+}
+
+/*aboutme*/
+.title h1 {
+  color: var(--clr-primary);
+  line-height: 2em;
+}
+
+/*contact*/
+#contact h1 {
+  margin-bottom: 3%;
+}
+
+#contact input[type="submit"] {
+  background-color: var(--clr-primary-2);
+  border: 1px solid var(--clr-primary-3);
+  width: 100%;
+  padding: 12px;
+  margin: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact input[type="submit"]:hover,
+#contact input[type="submit"]:focus {
+  background-color: var(--clr-primary-4);
+  border: 1px solid var(--clr-primary-3);
+  text-decoration: none;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  background-color: transparent;
+  border: 3px solid var(--clr-primary-3);
+  border-radius: 10px;
+  color: var(--clr-primary);
+}
+
+#contact input[type="text"]::placeholder,
+#contact input[type="email"]::placeholder,
+#contact textarea::placeholder {
+  color: var(--clr-primary);
+}
+
+/*email*/
+#contact a {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: var(--clr-primary-4);
+}
+
+/*icon fa*/
+#contact a i {
+  color: var(--clr-primary);
+  font-size: 3.5em;
+}
+
+#contact a i:hover,
+#contact a i:focus {
+  color: var(--clr-primary-4);
+}
+
+.fa-linkedin,
+.fa-github {
+  margin-right: 5px;
+}
+
+/*button dark*/
+.btn-dark {
+  background-color: var(--clr-primary-2);
+  border: 1px solid var(--clr-primary-3);
+  width: 40%;
+  padding: 12px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: var(--clr-primary-4);
+  border: 1px solid var(--clr-primary-3);
+  text-decoration: none;
+}
+
+/*footer*/
+footer p {
+  font-size: 1.3em;
+  color: var(--clr-primary);
+}
+
+/*media queries*/
+@media (max-width: 768px) {
+  nav button.navbar-toggler {
+    position: relative;
+    right: 1.25rem;
+    color: var(--clr-primary);
+  }
+  span.navbar-toggler-icon {
+    padding: 0.5vh;
+  }
+  .navbar-brand {
+    position: relative;
+    left: 1.5rem;
+    font-size: 1.4rem;
+  }
+  nav ul li {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1em;
+  }
+
+  #home {
+    text-align: center;
+  }
+  #home h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  #home h2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  #home p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  #home .btn-dark {
+    font-size: 0.9rem;
+    width: 80%;
+  }
+  #home img {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  #about {
+    text-align: center;
+  }
+  #about h1 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  #about h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #about p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  #about .btn-dark {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  #about img {
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  #skills {
+    text-align: center;
+  }
+  #skills h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #skills h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #skills p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  #projects h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  /* #projects h3 {
+    font-size: 1rem;
+  }
+  #projects p {
+    font-size: 0.82rem;
+    width: 100%;
+  }
+  #projects .card {
+    width: 100%;
+    height: 480px;
+  } */
+
+  #projects .btn-dark {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  #contact h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #contact h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #contact p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+}
