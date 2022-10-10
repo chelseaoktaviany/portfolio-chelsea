@@ -7,6 +7,7 @@
   --clr-primary-3: #1a4835;
   --clr-primary-4: #2c6d52;
   --clr-primary-5: #b8ecd6;
+  --clr-primary-6: #317559;
   --clr-white: #e5eef1;
   --clr-dark-bg: #191a1b;
 
@@ -135,6 +136,22 @@ section h2 {
   color: var(--clr-primary);
   line-height: 2.2em;
 }
+section h3 {
+  font-size: 2.5em;
+  color: var(--clr-white);
+  line-height: 2.1em;
+}
+section h4 {
+  font-size: 2em;
+  font-weight: lighter;
+  color: var(--clr-white-2);
+  line-height: 2.1em;
+}
+section ul li {
+  font-size: 1.8em;
+  color: var(--clr-white-2);
+  line-height: 2.1em;
+}
 section p {
   font-size: 18px;
   color: var(--clr-white);
@@ -143,7 +160,7 @@ section p {
   letter-spacing: 2.2px;
 }
 
-/*aboutme*/
+/*title*/
 .title h1 {
   color: var(--clr-primary);
   line-height: 2em;
@@ -209,6 +226,22 @@ section p {
   margin-right: 5px;
 }
 
+/* btn-primary */
+.btn-primary {
+  background-color: var(--clr-primary-6);
+  border: 1px solid var(--clr-primary-3);
+  padding: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--clr-primary-4);
+  border: 1px solid var(--clr-primary-3);
+  text-decoration: none;
+}
+
 /*button dark*/
 .btn-dark {
   background-color: var(--clr-primary-2);
@@ -228,10 +261,14 @@ section p {
 
 /* card */
 .card {
-  background-color: #222e2b;
+  background-color: #2f4f47;
 }
 .card-body {
   color: var(--clr-white);
+}
+.card-text {
+  font-size: 0.95em;
+  letter-spacing: 0;
 }
 
 /*footer*/
@@ -317,6 +354,24 @@ footer p {
   #experiences h2 {
     font-size: 1.5rem;
     line-height: 1.5;
+  }
+  #experiences h3 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+  #experiences h4 {
+    font-size: 1.1em;
+    font-weight: lighter;
+    color: var(--clr-white);
+    line-height: 2.1em;
+    text-align: left;
+  }
+  #experiences ul li {
+    font-size: 1.1em;
+    color: var(--clr-white);
+    line-height: 2.1em;
+    text-align: left;
   }
   #experiences p {
     font-size: 0.95rem;
@@ -452,6 +507,10 @@ footer p {
   }
   #experiences h2 {
     font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  #experiences h3 {
+    font-size: 1.5rem;
     line-height: 1.5;
   }
   #experiences p {
