@@ -153,7 +153,6 @@ section p {
 #contact h1 {
   margin-bottom: 3%;
 }
-
 #contact input[type="submit"] {
   background-color: var(--clr-primary-2);
   border: 1px solid var(--clr-primary-3);
@@ -164,14 +163,12 @@ section p {
   font-weight: bold;
   text-decoration: none;
 }
-
 #contact input[type="submit"]:hover,
 #contact input[type="submit"]:focus {
   background-color: var(--clr-primary-4);
   border: 1px solid var(--clr-primary-3);
   text-decoration: none;
 }
-
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
@@ -184,7 +181,6 @@ section p {
   border-radius: 10px;
   color: var(--clr-primary);
 }
-
 #contact input[type="text"]::placeholder,
 #contact input[type="email"]::placeholder,
 #contact textarea::placeholder {
@@ -196,22 +192,18 @@ section p {
   color: var(--clr-primary);
   text-decoration: none;
 }
-
 #contact a:hover {
   color: var(--clr-primary-4);
 }
-
 /*icon fa*/
 #contact a i {
   color: var(--clr-primary);
   font-size: 3.5em;
 }
-
 #contact a i:hover,
 #contact a i:focus {
   color: var(--clr-primary-4);
 }
-
 .fa-linkedin,
 .fa-github {
   margin-right: 5px;
@@ -227,12 +219,19 @@ section p {
   font-weight: bold;
   text-decoration: none;
 }
-
 .btn-dark:hover,
 .btn-dark:focus {
   background-color: var(--clr-primary-4);
   border: 1px solid var(--clr-primary-3);
   text-decoration: none;
+}
+
+/* card */
+.card {
+  background-color: #222e2b;
+}
+.card-body {
+  color: var(--clr-white);
 }
 
 /*footer*/
@@ -262,6 +261,7 @@ footer p {
     padding: 1em;
   }
 
+  /* home */
   #home {
     text-align: center;
   }
@@ -282,6 +282,8 @@ footer p {
   #home img {
     margin-top: 1.5rem;
   }
+
+  /* about */
   #about {
     text-align: center;
   }
@@ -303,6 +305,24 @@ footer p {
     margin-top: -1.5rem;
     margin-bottom: 1rem;
   }
+
+  /* experiences */
+  #experiences {
+    text-align: center;
+  }
+  #experiences h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #experiences h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #experiences p {
+    font-size: 0.95rem;
+  }
+
+  /* skills */
   #skills {
     text-align: center;
   }
@@ -317,26 +337,18 @@ footer p {
   #skills p {
     font-size: 0.95rem;
   }
+
+  /* projects */
   #projects h1 {
     font-size: 1.5rem;
     line-height: 1.5;
   }
-  /* #projects h3 {
-    font-size: 1rem;
-  }
-  #projects p {
-    font-size: 0.82rem;
-    width: 100%;
-  }
-  #projects .card {
-    width: 100%;
-    height: 480px;
-  } */
-
   #projects .btn-dark {
     font-size: 0.9rem;
     width: 100%;
   }
+
+  /* contact */
   #contact h1 {
     font-size: 1.5rem;
     line-height: 1.5;
@@ -372,6 +384,7 @@ footer p {
     padding: 1em;
   }
 
+  /* home */
   #home {
     text-align: center;
     width: 100%;
@@ -396,7 +409,10 @@ footer p {
   }
   #home img {
     margin-top: 1.5rem;
+    width: 90%;
   }
+
+  /* about */
   #about {
     text-align: center;
     width: 100%;
@@ -422,7 +438,28 @@ footer p {
   #about img {
     margin-top: -1.5rem;
     margin-bottom: 1rem;
+    width: 90%;
   }
+
+  /* experiences */
+  #experiences {
+    text-align: center;
+    width: 100%;
+  }
+  #experiences h1 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+  #experiences h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  #experiences p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  /* skills */
   #skills {
     text-align: center;
     width: 100%;
@@ -439,23 +476,18 @@ footer p {
     font-size: 1.2rem;
     width: 100%;
   }
+
+  /* projects */
   #projects h1 {
     font-size: 2.2rem;
     line-height: 1.5;
   }
-
-  /* cards */
-  .card {
-    background-color: #222e2b;
-  }
-  .card-body {
-    color: var(--clr-white);
-  }
-
   #projects .btn-dark {
     font-size: 1.2rem;
     width: 100%;
   }
+
+  /* contact */
   #contact h1 {
     font-size: 2.2rem;
     line-height: 1.5;
