@@ -246,7 +246,7 @@ section p {
 .btn-dark {
   background-color: var(--clr-primary-2);
   border: 1px solid var(--clr-primary-3);
-  width: 40%;
+  width: 50%;
   padding: 12px;
   font-size: 1.4em;
   font-weight: bold;
